@@ -1,0 +1,132 @@
+﻿.TopHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.TopHome .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+    padding: 100px;
+}
+
+.TopHome .text h1 {
+    font-weight:900;
+    color: var(--Primary);
+    margin: 10px 0;
+}
+
+.TopHome .text h3 {
+    margin: 20px 0;
+    font-weight:700;
+}
+
+
+.TopHome .text button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: var(--Primary);
+    color: var(--White);
+    font-weight:700;
+}
+.TopHome .text .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: var(--Blue);
+    color: var(--White);
+    font-weight:700;
+}
+
+.TopHome .image {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 500px;
+    border-radius: 0 0 0 100px;
+    background-color: var(--Blue);
+    object-fit: cover;
+}
+
+.TopHome .image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0 0 0 100px;
+    border: none;
+    border-left: 3px solid var(--Blue);
+    border-bottom: 3px solid var(--Blue);
+}
+
+@media (max-width: 850px) {
+    .TopHome .text {
+        padding: 10px;
+    }
+
+    @media (max-width: 750px) {
+        .TopHome {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            height: 100%;
+        }
+
+        .TopHome .text {
+            width: 100%;
+            height: 100%;
+        }
+
+        
+.TopHome .image {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 500px;
+    border-radius: 0 0 0 100px;
+    background-color: var(--Blue);
+    object-fit: cover;
+}
+
+.TopHome .image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0 0 0 100px;
+    border: none;
+    border-bottom: 3px solid var(--Blue);
+}
+
+        
+        
+    }
+    
+    
+}
+

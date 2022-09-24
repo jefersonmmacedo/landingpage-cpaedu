@@ -1,0 +1,11 @@
+﻿.Home {
+    width: 100%;
+    text-align: center;
+    color:var(--Primary);
+}
+
+.Home .dep {
+    width: 100%;
+    margin: 0px auto;
+    background-color: var(--Primary);
+}
